@@ -1,0 +1,282 @@
+body{
+    background-color: black;
+    color:#555555;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:16px;
+    font-weight:normal;
+    /* Same as above */
+    font: normal 16px Arial, Helvetica, sans-serif;
+
+    line-height:1.6em;
+    margin:0;
+}
+
+#navbar{
+    background-color: #333333;
+    color: #ffffff;
+}
+
+
+/*----------navbar----------*/
+
+.flex-row{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    padding: 0 2rem;
+    background: black
+}
+
+a{
+    text-decoration: none;
+}
+
+nav{
+    padding: 0 2rem;
+    background-color: #000000;
+    position: relative;
+    justify-content: space-between;
+    height: 0rem;
+    min-height: 35vh;
+    overflow-y: hidden;
+    transition: all 1s ease;
+}
+
+nav.nav-brand a{
+    display: block;
+    padding: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.6rem;
+}
+
+nav .nav-items{
+    list-style-type: none;
+    margin: 0;
+}
+
+nav .nav-items .nav-link{
+    padding: 1.3rem 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+
+}
+
+nav .nav-items .nav-link:hover{
+    background-color: white;
+
+}
+
+nav .nav-items .nav-link:hover a{
+    color: black;
+}
+
+
+nav .toggle-collapse{
+    width: 100%;
+    position: absolute;
+    top: 0%
+    
+}
+
+nav .toggle-collapse .toggle-icons{
+    display: flex;
+    justify-content: flex-end;
+    padding: 1.4rem 4rem;
+}
+
+nav .toggle-collapse .toggle-icons i{
+    font-size: 1.4rem;
+}
+
+.collapse{
+    height: 30rem
+}
+
+.box-1{
+    background-color: black;
+    color:#ffffff;
+
+    text-align:center;
+    border-right:5px purple solid;
+    border-left:5px purple solid;
+    border-top:5px purple solid;
+    border-bottom:5px purple solid;
+    /* same as above */
+    border:5px purple solid;
+    border-width:3px;
+    border-bottom-width:10px;
+    border-top-style:dotted;
+
+    border: 5px purple solid;
+
+    padding:20px;
+
+    margin-top:20px;
+    margin:20px 0;
+
+    background-image:url('../My_Website/images/moon.jpg')
+    ;
+    background-repeat:no-repeat;
+    background-position: 100px 200px;
+    background-position: center top;
+}
+
+.button{
+    background-color:#333333;
+    color:#ffffff;
+    padding:10px, 15px;
+    border:none;
+}
+
+.button:hover{
+    background:purple;
+    color:#ffffff;
+}
+
+.clr{
+    clear:both;
+}
+
+.box-1 h1{
+    font-family:Tahoma;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    word-spacing: .5em;
+}
+
+.box-2{
+    border:3px dotted #cccccc;
+    padding:20px;
+    margin:20px 0;
+}
+
+a{
+    text-decoration: none;
+    columns: #000000;
+}
+
+a:hover{
+    color:red;
+}
+
+a:active{
+    color:green;
+}
+
+a:visited{
+    color:purple;
+}
+
+.Bath{
+    border:1px #cccccc solid;
+    padding:10px;
+    border-radius:15px;
+}
+
+.Bath h4{
+    text-align: center;
+}
+
+.Bath ul{
+    padding:0;
+    list-style:square;
+}
+
+.Bath li{
+    padding-bottom:6px;
+    border-bottom:dotted 1px #333333;
+}
+
+.my-form{
+    padding:20px;
+}
+
+.my-form .form-group{
+    padding-bottom:15px;
+}
+
+.my-form label{
+    display:block;
+}
+
+.my-form input[type="text"], .my-form textarea{
+    padding:8px;
+    width:100%;
+}
+
+.block{
+    float:left;
+    width:33.3%;
+    border:1px solid #cccccc;
+    padding:10px;
+    box-sizing:border-box;
+}
+
+#main-block{
+    float:left;
+    width:70%;
+    padding:15px;
+    box-sizing: border-box;
+}
+
+#sidebar{
+    float:right;
+    width:30%;
+    background-color: #333333;
+    color:#ffffff;
+    padding:15px;
+    box-sizing: border-box;
+}
+
+.p-box{
+    width:800px;
+    height:500px;
+    border:1px solid #000000;
+    margin-top:30px;
+    position:relative;
+    background-image:url('../My_Website/images/moon2.jpg')
+        ;
+    background-repeat:no-repeat;
+    background-position: 100px 200px;
+    background-position: center top;
+}
+
+.p-box h1{
+    position: absolute;
+    top:100px;
+    left:200px;
+}
+
+.p-box h2{
+    position:absolute;
+    bottom:40px;
+    right:100px;
+}
+
+.fix-me{
+    position:fixed;
+    top:400px;
+    background-color: gray;
+
+}
+
+
+#main-footer{
+    background: black;
+    color: gray;
+    padding:20px;
+    margin-top:40px;
+    text-align: center;
+}
+
+@media only screen and (max-width:800px){
+    nav .nav-items{
+        flex-direction: column;
+    }
+    nav{
+        flex-direction: column !important;
+        display: block !important;
+    }
+}
