@@ -1,2 +1,6 @@
 # moon_maiden
 CodeSchool Webpage Project
+
+I created this web page with plans of using it in the future as a space for information and insights on more occult topics. I wanted to share the knowledge I have on various subjects such as moon phases, rituals, tarot, astrology, crystal healing, ect. My hope is to provide another resource for this information.
+
+For my page, I have used HTML, CSS, and JavaScript. The features I have included are, a responsive webpage that adjusts to different screen sizes, the JavaScript and CSS are separate files that are linked in the HTML, I've included notes to specify certain sections of code such as NavBar. I've included a navigation bar at the top of the page that readjusts to different screen sizes and will eventually link to other pages of content in the future. I've added a form for name and email for a mailing list that verifies the input. I have added boxes to my CSS file to better separate content. I have also included a fixed button that connects to a social media page that I will be updating. I've added hover effects to the buttons on my page. I've added background images and sidebar that I intend to keep updated with the current moon phase we are in for user reference.
